@@ -29,3 +29,20 @@ Install the required Python packages:
    ```bash
    pip install -r requirements.txt
 
+3. Run the Flask App
+Start the Flask application
+   ```bash
+   python app/app.py
+The app will run on http://127.0.0.1:5000.
+
+#Endpoints
+1. Root Endpoint
+URL: /
+Method: GET
+Description: Confirms that the API is running.
+Example Response
+   ```bash
+   { "message": "Welcome to the Manufacturing Predictive Analysis API!"}
+
+   
+
