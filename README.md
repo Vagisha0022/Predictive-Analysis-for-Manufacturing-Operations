@@ -20,4 +20,6 @@ API Testing Tool: Postman
 
 Setup Instructions
 1. Clone the Repository
-   
+   ```bash
+   git clone https://github.com/your-username/manufacturing-predictive-analysis.git
+cd manufacturing-predictive-analysis ```bash
