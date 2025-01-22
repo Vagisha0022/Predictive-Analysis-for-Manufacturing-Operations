@@ -92,6 +92,14 @@ Example Response:
     { "Downtime": "No", "Confidence": 0.85}
 
 
+Using the API in Postman
+Install Postman: Download and install Postman from here.
+
+Add a Request:
+
+Click on New Tab or New Request.
+
+
 
 
 
