@@ -91,33 +91,7 @@ Example Response:
    ```bash
     { "Downtime": "No", "Confidence": 0.85}
 
-Using the API in Postman
-Install Postman: Download and install Postman from here.
 
-Add a Request:
-
-Click on New Tab or New Request.
-Set the Method and URL:
-
-Use the POST method.
-Set the URL to one of the endpoints, e.g., http://127.0.0.1:5000/upload.
-For File Upload:
-
-Go to the Body tab and select form-data.
-Add a key named file, set it to File, and upload your CSV.
-For Prediction:
-
-Go to the Body tab, select raw, and set the content type to JSON.
-Enter the JSON data for prediction.
-Send the Request:
-
-Click Send and review the response.
-
-
-Future Improvements
-Add support for additional machine learning models.
-Provide more detailed metrics (e.g., precision, recall).
-Deploy the API to a cloud platform like AWS, Azure, or Heroku.
 
 
 
