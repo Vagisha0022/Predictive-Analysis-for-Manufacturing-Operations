@@ -25,7 +25,7 @@ Setup Instructions
 2. Install Dependencies
 Install the required Python packages:
  ```bash
-pip install -r requirements.txt
+ pip install -r requirements.txt
 
 3. Run the Flask App
 Start the Flask application:
