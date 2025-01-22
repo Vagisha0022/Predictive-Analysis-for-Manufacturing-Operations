@@ -89,22 +89,8 @@ Enter the JSON input:
 
 Example Response:
    ```bash
-    { "Downtime": "No", "Confidence": 0.85}
+  { "Downtime": "No", "Confidence": 0.85}
 
+fnowpnw
 
-Using the API in Postman
-Install Postman: Download and install Postman from here.
-
-Add a Request:
-
-Click on New Tab or New Request.
-
-
-
-
-
-
-
-
-   
 
