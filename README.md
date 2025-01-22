@@ -44,19 +44,30 @@ Example Response
    ```bash
    { "message": "Welcome to the Manufacturing Predictive Analysis API!"}
 #2. Upload Dataset
+
 URL: /upload
+
 Method: POST
+
 Description: Upload a CSV file containing the dataset.
+
 Input:
+
 A CSV file with the following columns:
+
 Process temperature [K]
 Tool wear [min]
 Target (0 or 1 indicating no downtime or downtime).
 Example Request in Postman:
+
 Select POST.
+
 Set the URL to http://127.0.0.1:5000/upload.
+
+
 Go to the Body tab and select form-data.
 Add a key named file, set it to File, and upload your CSV file.
+
 Example Response
     ```bash
     { "message": "File 'predictive_maintenance.csv' uploaded and data loaded successfully!"}
@@ -91,6 +102,6 @@ Example Response:
    ```bash
   { "Downtime": "No", "Confidence": 0.85}
 
-fnowpnw
+
 
 
